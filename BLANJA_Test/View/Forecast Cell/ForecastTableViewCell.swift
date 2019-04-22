@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Kingfisher
+import SDWebImage
 
 class ForecastTableViewCell: UITableViewCell {
 
@@ -34,6 +34,17 @@ extension ForecastTableViewCell {
     }
     
     func setupIconWeather(withImageURL imageURL: String, andImageView imageView: UIImageView) {
+        if imageURL != "" {
+            let sdImageoption: SDWebImageOptions = .allowInvalidSSLCertificates
+            imageView.sd_setImage(with: URL(string: imageURL), placeholderImage: UIImage(named: "iconProfile"), options: sdImageoption) {(image, error, cahceType, nil) in
+                
+                if image == nil {
+                    imageView.image = UIImage(named: "iconProfile")
+                }
+            }
+        } else {
+            imageView.image = UIImage(named: "iconProfile")
+        }
         imageView.image = UIImage(named: "rain")
     }
     

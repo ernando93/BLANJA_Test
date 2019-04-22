@@ -8,7 +8,7 @@ target 'BLANJA_Test' do
   # Pods for BLANJA_Test
 	pod 'Alamofire'
 	pod 'SwiftyJSON'
-  pod 'Kingfisher', '~> 5.0'
+  pod 'SDWebImage', '~> 4.0'
   pod 'GooglePlaces'
 
   target 'BLANJA_TestTests' do

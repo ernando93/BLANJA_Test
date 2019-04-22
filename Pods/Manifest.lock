@@ -3,13 +3,15 @@ PODS:
   - GoogleMaps/Base (3.0.3)
   - GooglePlaces (3.0.3):
     - GoogleMaps/Base (= 3.0.3)
-  - Kingfisher (5.2.0)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
   - Alamofire
   - GooglePlaces
-  - Kingfisher (~> 5.0)
+  - SDWebImage (~> 4.0)
   - SwiftyJSON
 
 SPEC REPOS:
@@ -17,16 +19,16 @@ SPEC REPOS:
     - Alamofire
     - GoogleMaps
     - GooglePlaces
-    - Kingfisher
+    - SDWebImage
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
   GooglePlaces: f09e76993c9c3ee4af8f4f7f535bb94d6aa3b649
-  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 4387c44eeb79040c24abd7ccc0e1ca252068589f
+PODFILE CHECKSUM: eed5a8564b297d6cd5cfb1f287248b765b29b674
 
 COCOAPODS: 1.6.1
