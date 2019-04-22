@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  BLANJA_Test
+//
+//  Created by Ernando Kasaluhe on 22/04/19.
+//  Copyright © 2019 Ernando Kasaluhe. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+api_url  = https:/$()/api.apixu.com
+protocol = https

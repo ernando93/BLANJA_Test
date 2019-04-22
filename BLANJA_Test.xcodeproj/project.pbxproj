@@ -16,6 +16,8 @@
 		9E272486226D727F004DD79B /* GoogleSearchPlaceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E272485226D727F004DD79B /* GoogleSearchPlaceRequest.swift */; };
 		9E27248A226D7586004DD79B /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E272488226D7586004DD79B /* SearchTableViewCell.swift */; };
 		9E27248B226D7586004DD79B /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E272489226D7586004DD79B /* SearchTableViewCell.xib */; };
+		9E8051CA226DD64300C1E493 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8051C9226DD64300C1E493 /* Environment.swift */; };
+		9E8051CC226DD66300C1E493 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8051CB226DD66300C1E493 /* Constant.swift */; };
 		9E9CF739226B5D7300B00229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CF738226B5D7300B00229 /* AppDelegate.swift */; };
 		9E9CF73E226B5D7300B00229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9CF73C226B5D7300B00229 /* Main.storyboard */; };
 		9E9CF741226B5D7300B00229 /* BLANJA_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CF73F226B5D7300B00229 /* BLANJA_Test.xcdatamodeld */; };
@@ -23,9 +25,6 @@
 		9E9CF746226B5D7400B00229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9CF744226B5D7400B00229 /* LaunchScreen.storyboard */; };
 		9E9CF751226B5D7500B00229 /* BLANJA_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CF750226B5D7500B00229 /* BLANJA_TestTests.swift */; };
 		9E9CF75C226B5D7500B00229 /* BLANJA_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CF75B226B5D7500B00229 /* BLANJA_TestUITests.swift */; };
-		9E9CF76D226B5ED900B00229 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CF76A226B5ED900B00229 /* Constant.swift */; };
-		9E9CF76E226B5ED900B00229 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CF76B226B5ED900B00229 /* Environment.swift */; };
-		9E9CF76F226B5ED900B00229 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9E9CF76C226B5ED900B00229 /* Config.xcconfig */; };
 		9E9CF77C226B5F4F00B00229 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CF771226B5F4F00B00229 /* Location.swift */; };
 		9E9CF77D226B5F4F00B00229 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CF772226B5F4F00B00229 /* CurrentWeather.swift */; };
 		9E9CF77E226B5F4F00B00229 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CF773226B5F4F00B00229 /* Weather.swift */; };
@@ -73,6 +72,9 @@
 		9E272485226D727F004DD79B /* GoogleSearchPlaceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSearchPlaceRequest.swift; sourceTree = "<group>"; };
 		9E272488226D7586004DD79B /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		9E272489226D7586004DD79B /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		9E8051C8226DD61B00C1E493 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		9E8051C9226DD64300C1E493 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		9E8051CB226DD66300C1E493 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		9E9CF735226B5D7300B00229 /* BLANJA_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLANJA_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9CF738226B5D7300B00229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E9CF73D226B5D7300B00229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,9 +88,6 @@
 		9E9CF757226B5D7500B00229 /* BLANJA_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLANJA_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9CF75B226B5D7500B00229 /* BLANJA_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLANJA_TestUITests.swift; sourceTree = "<group>"; };
 		9E9CF75D226B5D7500B00229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E9CF76A226B5ED900B00229 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		9E9CF76B226B5ED900B00229 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		9E9CF76C226B5ED900B00229 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		9E9CF771226B5F4F00B00229 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		9E9CF772226B5F4F00B00229 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		9E9CF773226B5F4F00B00229 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
@@ -175,6 +174,16 @@
 			path = SearchCell;
 			sourceTree = "<group>";
 		};
+		9E8051C7226DD61000C1E493 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				9E8051C8226DD61B00C1E493 /* Config.xcconfig */,
+				9E8051C9226DD64300C1E493 /* Environment.swift */,
+				9E8051CB226DD66300C1E493 /* Constant.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
 		9E9CF72C226B5D7200B00229 = {
 			isa = PBXGroup;
 			children = (
@@ -200,10 +209,10 @@
 		9E9CF737226B5D7300B00229 /* BLANJA_Test */ = {
 			isa = PBXGroup;
 			children = (
+				9E8051C7226DD61000C1E493 /* Setup */,
 				9E9CF784226B6C5200B00229 /* View */,
 				9E9CF770226B5F4F00B00229 /* Model */,
 				9E9CF775226B5F4F00B00229 /* Network Abstraction */,
-				9E9CF769226B5ED900B00229 /* Setup */,
 				9E9CF738226B5D7300B00229 /* AppDelegate.swift */,
 				9E9CF73C226B5D7300B00229 /* Main.storyboard */,
 				9E9CF742226B5D7400B00229 /* Assets.xcassets */,
@@ -230,17 +239,6 @@
 				9E9CF75D226B5D7500B00229 /* Info.plist */,
 			);
 			path = BLANJA_TestUITests;
-			sourceTree = "<group>";
-		};
-		9E9CF769226B5ED900B00229 /* Setup */ = {
-			isa = PBXGroup;
-			children = (
-				9E9CF76A226B5ED900B00229 /* Constant.swift */,
-				9E9CF76B226B5ED900B00229 /* Environment.swift */,
-				9E9CF76C226B5ED900B00229 /* Config.xcconfig */,
-			);
-			name = Setup;
-			path = "../../../Documents/My Project Swift/Gojek_Test/Gojek_Test/Setup";
 			sourceTree = "<group>";
 		};
 		9E9CF770226B5F4F00B00229 /* Model */ = {
@@ -422,7 +420,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E9CF789226B6C9E00B00229 /* ForecastTableViewCell.xib in Resources */,
-				9E9CF76F226B5ED900B00229 /* Config.xcconfig in Resources */,
 				9E9CF746226B5D7400B00229 /* LaunchScreen.storyboard in Resources */,
 				9E9CF743226B5D7400B00229 /* Assets.xcassets in Resources */,
 				9E27248B226D7586004DD79B /* SearchTableViewCell.xib in Resources */,
@@ -578,15 +575,15 @@
 				9E9CF788226B6C9E00B00229 /* ForecastTableViewCell.swift in Sources */,
 				9E9CF781226B5F4F00B00229 /* Request.swift in Sources */,
 				9E9CF780226B5F4F00B00229 /* Response.swift in Sources */,
+				9E8051CC226DD66300C1E493 /* Constant.swift in Sources */,
 				9E9CF782226B5F4F00B00229 /* SingleDataResponse.swift in Sources */,
 				9E9CF741226B5D7300B00229 /* BLANJA_Test.xcdatamodeld in Sources */,
 				9E27248A226D7586004DD79B /* SearchTableViewCell.swift in Sources */,
 				9E9CF77D226B5F4F00B00229 /* CurrentWeather.swift in Sources */,
-				9E9CF76D226B5ED900B00229 /* Constant.swift in Sources */,
 				9E9CF77C226B5F4F00B00229 /* Location.swift in Sources */,
 				9E272481226D677A004DD79B /* SearchLocationViewController.swift in Sources */,
+				9E8051CA226DD64300C1E493 /* Environment.swift in Sources */,
 				9E9CF783226B5F4F00B00229 /* WeatherRequest.swift in Sources */,
-				9E9CF76E226B5ED900B00229 /* Environment.swift in Sources */,
 				9E272486226D727F004DD79B /* GoogleSearchPlaceRequest.swift in Sources */,
 				9E272484226D7236004DD79B /* GooglePlacesAPI.swift in Sources */,
 			);
@@ -645,7 +642,7 @@
 /* Begin XCBuildConfiguration section */
 		9E9CF75E226B5D7500B00229 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E9CF76C226B5ED900B00229 /* Config.xcconfig */;
+			baseConfigurationReference = 9E8051C8226DD61B00C1E493 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -707,7 +704,7 @@
 		};
 		9E9CF75F226B5D7500B00229 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E9CF76C226B5ED900B00229 /* Config.xcconfig */;
+			baseConfigurationReference = 9E8051C8226DD61B00C1E493 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
