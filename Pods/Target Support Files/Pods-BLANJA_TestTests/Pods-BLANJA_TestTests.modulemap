@@ -1,0 +1,6 @@
+framework module Pods_BLANJA_TestTests {
+  umbrella header "Pods-BLANJA_TestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
